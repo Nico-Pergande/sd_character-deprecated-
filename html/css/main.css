@@ -1,0 +1,172 @@
+html {
+    overflow: hidden;
+}
+
+p {
+    margin: 0 !important;
+}
+
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    background-color: transparent !important;
+    overflow: hidden;
+}
+
+.main-container {
+    display: none;
+    width: 70vw;
+    margin: auto;
+    position: relative;
+    top: 25vh;
+    right: 75px;
+}
+
+.character-container {
+    width: 100%;
+    margin: auto;
+    display: flex;
+}
+
+.character-box {
+    color: #EEEEEE;
+    background: #212121;
+    height: 480px;
+    width: 325px;
+    text-align: center;
+    border: 2px solid transparent;
+    margin-left: 35px;
+    border-radius: 15px;
+}
+
+.character-box:hover {
+    color: #EEEEEE;
+    background: #212121;
+    height: 550px;
+    width: 325px;
+    text-align: center;
+    border: 2px solid transparent;
+    margin-left: 35px;
+    border-radius: 15px;
+}
+
+.character-bg {
+    position: relative;
+    margin: 0px;
+    top: -2px;
+    left: -2px;
+    width: 325px;
+    height: 115px;
+    background-image: url("https://img4.goodfon.com/wallpaper/nbig/2/f6/grand-theft-auto-v-gta-5-game-city-kumo-cloud-sky-gta-v.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.character-name {
+    position: relative;
+    font-size: 20px;
+    font-weight: 600;
+    bottom: 50px;
+    letter-spacing: 1.25px;
+}
+
+.character-extradata {
+    position: relative;
+    font-size: 15px;
+    font-weight: 400;
+    bottom: 50px;
+    letter-spacing: 1.25px;
+}
+
+.character-profile {
+    position: relative;
+    width: 125px;
+    height: 125px;
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 70px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #FFEB3B;
+}
+
+.cpb-male {
+    background-image: url("https://vignette.wikia.nocookie.net/the-libertonian/images/a/a9/NikoUser3.png/revision/latest?cb=20170919022018");
+}
+
+.cpb-female {
+    background-image: url("https://i.skyrock.net/7925/5117925/pics/73703383_small.jpg");
+}
+
+.cpb-unknown {
+    background-image: url("https://rightpeoplegroup.com/wp-content/uploads/2020/02/service_default_avatar_182956.png");
+}
+
+.character-info {
+    text-align: left !important;
+}
+
+.character-buttons {
+    display: none;
+    width: 70vw;
+    margin: 15px auto;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.btn-play {
+    position: relative;
+    background: #27ae60;
+    color: #212121;
+    width: 300px;
+    margin-right: 1px;
+    margin-left: 1px;
+    bottom: 20px;
+}
+
+.btn-play:hover {
+    position: relative;
+    background: #06e462;
+    color: #FFFFFF;
+    width: 300px;
+    margin-right: 1px;
+    margin-left: 1px;
+    bottom: 20px;
+}
+
+.btn-delete {
+    position: relative;
+    background: #930b0b;
+    color: #FFFFFF;
+    top: 0px;
+    width: 300px;
+    margin-right: 1px;
+    margin-left: 1px;
+    bottom: 20px;
+}
+
+.btn-delete:hover {
+    position: relative;
+    background: #b50c0c;
+    color: #FFFFFF;
+    width: 300px;
+    margin-right: 1px;
+    margin-left: 1px;
+    bottom: 20px;
+}
+
+*:focus,
+* {
+    outline: none;
+}
