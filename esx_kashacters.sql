@@ -7,10 +7,13 @@
 -- Serverversie: 10.1.32-MariaDB
 -- PHP-versie: 7.2.5
 
-SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
+SET SQL_MODE
+= "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT
+= 0;
 START TRANSACTION;
-SET time_zone = "+00:00";
+SET time_zone
+= "+00:00";
 
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -28,14 +31,17 @@ SET time_zone = "+00:00";
 -- Tabelstructuur voor tabel `user_lastcharacter`
 --
 
-CREATE TABLE `user_lastcharacter` (
-  `steamid` varchar(255) NOT NULL,
-  `charid` int(11) NOT NULL
+CREATE TABLE `user_lastcharacter`
+(
+  `steamid` varchar
+(255) NOT NULL,
+  `charid` int
+(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 COMMIT;
 
-ALTER TABLE users 
-ADD streamer tinyint(1) DEFAULT 0;
+ALTER TABLE users
+ADD streamer tinyint(1) DEFAULT 0,
 ADD vip tinyint(1) DEFAULT 0;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
