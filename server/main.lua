@@ -35,7 +35,7 @@ AddEventHandler('sd_character:CharacterChosen', function(charid, ischar)
     else
 		TriggerClientEvent('skinchanger:loadDefaultModel', src, true, cb)
         spawn = { x = -1037.66, y = -2737.81, z = 20.17 } -- DEFAULT SPAWN POSITION
-        TriggerClientEvent('sd_register:openMenu', src, true)
+        TriggerClientEvent('esx_register:openMenu', src, true)
     end
     TriggerClientEvent("sd_character:SpawnCharacter", src, spawn)
 end)

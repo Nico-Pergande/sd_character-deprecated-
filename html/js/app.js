@@ -157,6 +157,7 @@ function create(el) {
                             var grade = char.job_grade
                         } else {
                             var job = "Arbeitslos"
+                            var grade = ""
                         }
                     }
 
