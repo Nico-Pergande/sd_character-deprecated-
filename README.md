@@ -5,7 +5,6 @@
 - new Design
 - Streamermode (working, menu is WIP)
 - VIP Status (working, menu is WIP)
-- mode Chatacterdata
 
 ---
 
