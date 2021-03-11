@@ -15,5 +15,5 @@ Link: https://github.com/YisusOnDev/esx_kashacters
 ---
 
 # About
-Here you can find my discord: https://discord.gg/r2kFkMx
-Twitch: https://twitch.tv/squid_development
+Here you can find my discord: https://discord.gg/Vk7rfHXyrd
+Twitch: https://twitch.tv/np_dev
