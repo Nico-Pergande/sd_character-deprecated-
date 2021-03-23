@@ -1,5 +1,8 @@
-# sd_character
----
+<h1 align="center">Hi 👋. Welcome to Squid-Development!</h1>
+<h3 align="center">Today I present: sd_character</h3>
+
+<br>
+<br>
 
 # Changes
 - new Design
